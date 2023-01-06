@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+  }
+  
+  * {
+    box-sizing: border-box;
+    box-align: center;
+  }
+  
+  /* Add padding to containers */
+  .container {
+    padding: 20px;
+    background-color: white;
+    text-align: center;
+    position: none;
+    right:2 ;
+    margin: 20px;
+    max-width: 50%;
+   
+   
+  
+  }
+.pic {
+    background-image: url("../photos/uni2.jpg");
+    background-color: blue; 
+    height:800px;
+    background-size:cover;
+    
+}
+  /* Full-width input fields */
+  input[type=text], input[type=password] {
+    width: 60%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+   
+    border: none;
+    background: #f1f1f1;
+    text-align:justify;
+  }
+  
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+    text-align:justify;
+  }
+  
+  /* Overwrite default styles of hr */
+  hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+  }
+  
+  /* Set a style for the submit button */
+  .registerbtn {
+    background-color: #0415aa;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 15%;
+    opacity: 0.9;
+    
+  }
+  
+  .registerbtn:hover {
+    opacity: 1;
+  }
+  
+  /* Add a blue text color to links */
+  a {
+    color: dodgerblue;
+  }
+  
+  /* Set a grey background color and center the text of the "sign in" section */
+  .signin {
+    background-color: #f1f1f1;
+    text-align: center;
+  }
